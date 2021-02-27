@@ -1,0 +1,51 @@
+.card-small{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  background: var(--cardGray);
+  border-radius: 8px;
+  padding: 1.7rem;
+}
+
+.card-small p {
+  margin: 0;
+}
+
+.card-small-views{
+  color: var(--gray);
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.card-small-icon{
+  text-align: right;
+}
+
+.card-small-number{
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: .9;
+}
+
+.card-small-percentage{
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: var(--lime-green);
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.card-small-percentage.is-danger{
+  color: var(--bright-red)
+}
+
+.card-small-percentage span {
+  display: flex;
+  align-items: center;
+}
+
+.card-small-percentage img {
+  margin-right: 5px;
+}
